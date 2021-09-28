@@ -70,15 +70,15 @@ variable "digitalocean_token" {
 
 variable "digitalocean_ssh_keys" {
   type    = list(string)
-  default = [""]
+  default = ["31289276"]
 }
 
 variable "digitalocean_region" {
-  default = "fra1"
+  default = "sgp1"
 }
 
 variable "digitalocean_size" {
-  default = "1gb"
+  default = "s-1vcpu-1gb"
 }
 
 variable "digitalocean_image" {
